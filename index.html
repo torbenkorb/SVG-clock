@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SVG Clock</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            line-height: 1.5;
+        }
+
+        h1 {
+            font-size: 48px;
+            margin-bottom: 0;
+        }
+
+        .intro {
+            text-align: center;
+            margin: 0 0 60px;
+            line-height: 1.2;
+        }
+
+        .lead {
+            font-size: 22px;
+            font-weight: 300;
+            margin-top: 6px;
+        }
+
+        svg {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            visibility: hidden;
+        }
+
+        .site {
+            margin: 70px auto;
+            max-width: 596px;
+            padding: 48px;
+        }
+
+        .disclaimer {
+            margin: 60px 0;
+            font-size: 14px;
+            color: rgba(0,0,0,0.54);
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="site">
+
+        <div class="intro">
+            <h1>Pure SVG clock</h1>
+            <p class="lead">Hand-written SVG clock animated with 60fps. </p>
+        </div>
+
+
+
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+
+            <circle cx="250" cy="250" r="250" fill="#c4cace" />
+            <circle cx="250" cy="250" r="240" fill="#fff" />
+
+            <g class="marks">
+                <line x1="250" y1="20" x2="250" y2="70" stroke="#000" stroke-width="15" />
+                <line x1="250" y1="20" x2="250" y2="70" stroke="#000" stroke-width="15"
+                    transform="rotate(30, 250, 250)" />
+                <line x1="250" y1="20" x2="250" y2="70" stroke="#000" stroke-width="15"
+                    transform="rotate(60, 250, 250)" />
+                <line x1="250" y1="20" x2="250" y2="70" stroke="#000" stroke-width="15"
+                    transform="rotate(90, 250, 250)" />
+                <line x1="250" y1="20" x2="250" y2="70" stroke="#000" stroke-width="15"
+                    transform="rotate(120, 250, 250)" />
+                <line x1="250" y1="20" x2="250" y2="70" stroke="#000" stroke-width="15"
+                    transform="rotate(150, 250, 250)" />
+                <line x1="250" y1="20" x2="250" y2="70" stroke="#000" stroke-width="15"
+                    transform="rotate(180, 250, 250)" />
+                <line x1="250" y1="20" x2="250" y2="70" stroke="#000" stroke-width="15"
+                    transform="rotate(210, 250, 250)" />
+                <line x1="250" y1="20" x2="250" y2="70" stroke="#000" stroke-width="15"
+                    transform="rotate(240, 250, 250)" />
+                <line x1="250" y1="20" x2="250" y2="70" stroke="#000" stroke-width="15"
+                    transform="rotate(270, 250, 250)" />
+                <line x1="250" y1="20" x2="250" y2="70" stroke="#000" stroke-width="15"
+                    transform="rotate(300, 250, 250)" />
+                <line x1="250" y1="20" x2="250" y2="70" stroke="#000" stroke-width="15"
+                    transform="rotate(330, 250, 250)" />
+
+                <line x1="250" y1="20" x2="250" y2="36" stroke="#000" stroke-width="8"
+                    transform="rotate(6, 250, 250)" />
+                <line x1="250" y1="20" x2="250" y2="36" stroke="#000" stroke-width="8"
+                    transform="rotate(12, 250, 250)" />
+                <line x1="250" y1="20" x2="250" y2="36" stroke="#000" stroke-width="8"
+                    transform="rotate(18, 250, 250)" />
+                <line x1="250" y1="20" x2="250" y2="36" stroke="#000" stroke-width="8"
+                    transform="rotate(24, 250, 250)" />
+
+                <line x1="250" y1="20" x2="250" y2="36" stroke="#000" stroke-width="8"
+                    transform="rotate(36, 250, 250)" />
+                <line x1="250" y1="20" x2="250" y2="36" stroke="#000" stroke-width="8"
+                    transform="rotate(42, 250, 250)" />
+                <line x1="250" y1="20" x2="250" y2="36" stroke="#000" stroke-width="8"
+                    transform="rotate(48, 250, 250)" />
+                <line x1="250" y1="20" x2="250" y2="36" stroke="#000" stroke-width="8"
+                    transform="rotate(54, 250, 250)" />
+
+                <line x1="250" y1="20" x2="250" y2="36" stroke="#000" stroke-width="8"
+                    transform="rotate(66, 250, 250)" />
+                <line x1="250" y1="20" x2="250" y2="36" stroke="#000" stroke-width="8"
+                    transform="rotate(72, 250, 250)" />
+                <line x1="250" y1="20" x2="250" y2="36" stroke="#000" stroke-width="8"
+                    transform="rotate(78, 250, 250)" />
+                <line x1="250" y1="20" x2="250" y2="36" stroke="#000" stroke-width="8"
+                    transform="rotate(84, 250, 250)" />
+
+                <line x1="250" y1="20" x2="250" y2="36" stroke="#000" stroke-width="8"
+                    transform="rotate(96, 250, 250)" />
+                <line x1="250" y1="20" x2="250" y2="36" stroke="#000" stroke-width="8"
+                    transform="rotate(102, 250, 250)" />
+                <line x1="250" y1="20" x2="250" y2="36" stroke="#000" stroke-width="8"
+                    transform="rotate(108, 250, 250)" />
+                <line x1="250" y1="20" x2="250" y2="36" stroke="#000" stroke-width="8"
+                    transform="rotate(114, 250, 250)" />
+
+                <line x1="250" y1="20" x2="250" y2="36" stroke="#000" stroke-width="8"
+                    transform="rotate(126, 250, 250)" />
+                <line x1="250" y1="20" x2="250" y2="36" stroke="#000" stroke-width="8"
+                    transform="rotate(132, 250, 250)" />
+                <line x1="250" y1="20" x2="250" y2="36" stroke="#000" stroke-width="8"
+                    transform="rotate(138, 250, 250)" />
+                <line x1="250" y1="20" x2="250" y2="36" stroke="#000" stroke-width="8"
+                    transform="rotate(144, 250, 250)" />
+
+                <line x1="250" y1="20" x2="250" y2="36" stroke="#000" stroke-width="8"
+                    transform="rotate(156, 250, 250)" />
+                <line x1="250" y1="20" x2="250" y2="36" stroke="#000" stroke-width="8"
+                    transform="rotate(162, 250, 250)" />
+                <line x1="250" y1="20" x2="250" y2="36" stroke="#000" stroke-width="8"
+                    transform="rotate(168, 250, 250)" />
+                <line x1="250" y1="20" x2="250" y2="36" stroke="#000" stroke-width="8"
+                    transform="rotate(174, 250, 250)" />
+
+                <line x1="250" y1="20" x2="250" y2="36" stroke="#000" stroke-width="8"
+                    transform="rotate(186, 250, 250)" />
+                <line x1="250" y1="20" x2="250" y2="36" stroke="#000" stroke-width="8"
+                    transform="rotate(192, 250, 250)" />
+                <line x1="250" y1="20" x2="250" y2="36" stroke="#000" stroke-width="8"
+                    transform="rotate(198, 250, 250)" />
+                <line x1="250" y1="20" x2="250" y2="36" stroke="#000" stroke-width="8"
+                    transform="rotate(204, 250, 250)" />
+
+                <line x1="250" y1="20" x2="250" y2="36" stroke="#000" stroke-width="8"
+                    transform="rotate(216, 250, 250)" />
+                <line x1="250" y1="20" x2="250" y2="36" stroke="#000" stroke-width="8"
+                    transform="rotate(222, 250, 250)" />
+                <line x1="250" y1="20" x2="250" y2="36" stroke="#000" stroke-width="8"
+                    transform="rotate(228, 250, 250)" />
+                <line x1="250" y1="20" x2="250" y2="36" stroke="#000" stroke-width="8"
+                    transform="rotate(234, 250, 250)" />
+
+                <line x1="250" y1="20" x2="250" y2="36" stroke="#000" stroke-width="8"
+                    transform="rotate(246, 250, 250)" />
+                <line x1="250" y1="20" x2="250" y2="36" stroke="#000" stroke-width="8"
+                    transform="rotate(252, 250, 250)" />
+                <line x1="250" y1="20" x2="250" y2="36" stroke="#000" stroke-width="8"
+                    transform="rotate(258, 250, 250)" />
+                <line x1="250" y1="20" x2="250" y2="36" stroke="#000" stroke-width="8"
+                    transform="rotate(264, 250, 250)" />
+
+                <line x1="250" y1="20" x2="250" y2="36" stroke="#000" stroke-width="8"
+                    transform="rotate(276, 250, 250)" />
+                <line x1="250" y1="20" x2="250" y2="36" stroke="#000" stroke-width="8"
+                    transform="rotate(282, 250, 250)" />
+                <line x1="250" y1="20" x2="250" y2="36" stroke="#000" stroke-width="8"
+                    transform="rotate(288, 250, 250)" />
+                <line x1="250" y1="20" x2="250" y2="36" stroke="#000" stroke-width="8"
+                    transform="rotate(294, 250, 250)" />
+
+                <line x1="250" y1="20" x2="250" y2="36" stroke="#000" stroke-width="8"
+                    transform="rotate(306, 250, 250)" />
+                <line x1="250" y1="20" x2="250" y2="36" stroke="#000" stroke-width="8"
+                    transform="rotate(312, 250, 250)" />
+                <line x1="250" y1="20" x2="250" y2="36" stroke="#000" stroke-width="8"
+                    transform="rotate(318, 250, 250)" />
+                <line x1="250" y1="20" x2="250" y2="36" stroke="#000" stroke-width="8"
+                    transform="rotate(324, 250, 250)" />
+
+                <line x1="250" y1="20" x2="250" y2="36" stroke="#000" stroke-width="8"
+                    transform="rotate(336, 250, 250)" />
+                <line x1="250" y1="20" x2="250" y2="36" stroke="#000" stroke-width="8"
+                    transform="rotate(342, 250, 250)" />
+                <line x1="250" y1="20" x2="250" y2="36" stroke="#000" stroke-width="8"
+                    transform="rotate(348, 250, 250)" />
+                <line x1="250" y1="20" x2="250" y2="36" stroke="#000" stroke-width="8"
+                    transform="rotate(354, 250, 250)" />
+
+            </g>
+
+            <g class="hands">
+                <line class="hours" x1="250" x2="250" y1="90" y2="300" stroke="#000" stroke-width="20" />
+                <line class="minutes" x1="250" x2="250" y1="30" y2="310" stroke="#000" stroke-width="15" />
+
+                <g class="seconds">
+                    <line x1="250" x2="250" y1="80" y2="320" stroke="#f00" stroke-width="7" />
+                    <circle cx="250" cy="90" r="20" fill="red" />
+                </g>
+            </g>
+
+        </svg>
+
+        <div class="disclaimer">
+            This clock is inspired by the "Swiss Railway Clock" design and is used for learning and demonstration purposes under the "fair use" policy. I don't own any rights on the original design or intend commercial use of it.
+        </div>
+
+    </div>
+
+    <script>
+        document.querySelector('svg').style.visibility = 'visible';
+        const secondsHand = document.querySelector('.seconds');
+        const minutesHand = document.querySelector('.minutes');
+        const hoursHand = document.querySelector('.hours');
+
+        function loop() {
+            const date = new Date();
+            const hours = date.getHours();
+            const minutes = date.getMinutes();
+            const seconds = date.getSeconds();
+            const milliseconds = date.getMilliseconds();
+            rotate(secondsHand, seconds * 6 + milliseconds * 0.006);
+            rotate(minutesHand, minutes * 6 + seconds / 10 + milliseconds / 10000);
+            rotate(hoursHand, hours * 30 + minutes * .5 + seconds * 0.5 / 60);
+            requestAnimationFrame(loop);
+        }
+
+        function rotate(el, degree) {
+            el.setAttribute('transform', `rotate(${degree}, 250, 250)`);
+        }
+
+        loop();
+
+    </script>
+
+</body>
+
+</html>
